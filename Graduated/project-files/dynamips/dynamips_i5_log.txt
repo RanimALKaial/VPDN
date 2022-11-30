@@ -1,0 +1,39 @@
+Nov 29 07:36:40.524 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 29 07:36:40.527 HYPERVISOR: Started on IP = localhost, TCP port = 50315.
+Nov 29 07:36:41.000 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 29 07:36:41.000 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips 
+Nov 29 07:36:41.000 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips
+Nov 29 07:36:41.001 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\a954c8a5-31b3-4b04-bdbc-3a8c481c2e08 
+Nov 29 07:36:41.001 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\a954c8a5-31b3-4b04-bdbc-3a8c481c2e08
+Nov 29 07:36:41.002 HYPERVISOR: exec_cmd: vm create R6 5 c7200 
+Nov 29 07:36:41.005 VM: VM R6 created.
+Nov 29 07:36:41.006 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5004 
+Nov 29 07:36:41.007 HYPERVISOR: exec_cmd: c7200 get_mac_addr R6 
+Nov 29 07:36:41.007 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.008 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-FE 
+Nov 29 07:36:41.009 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Nov 29 07:36:41.010 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Nov 29 07:36:41.011 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.011 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60189214 
+Nov 29 07:36:41.013 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/ASUS/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Nov 29 07:36:41.014 HYPERVISOR: exec_cmd: c7200 set_mac_addr R6 ca05.0b9c.0000 
+Nov 29 07:36:41.015 HYPERVISOR: exec_cmd: vm set_nvram R6 512 
+Nov 29 07:36:41.015 HYPERVISOR: exec_cmd: vm set_ram R6 512 
+Nov 29 07:36:41.016 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.017 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 PA-GE 
+Nov 29 07:36:41.017 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.018 HYPERVISOR: exec_cmd: vm slot_add_binding R6 2 0 PA-GE 
+Nov 29 07:36:41.018 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.019 HYPERVISOR: exec_cmd: vm slot_add_binding R6 3 0 PA-GE 
+Nov 29 07:36:41.020 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.020 HYPERVISOR: exec_cmd: vm slot_add_binding R6 4 0 PA-GE 
+Nov 29 07:36:41.021 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.021 HYPERVISOR: exec_cmd: vm slot_add_binding R6 5 0 PA-GE 
+Nov 29 07:36:41.022 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:41.022 HYPERVISOR: exec_cmd: vm slot_add_binding R6 6 0 PA-GE 
+Nov 29 07:36:44.680 HYPERVISOR: exec_cmd: nio create_udp udp-2d39611b-2d07-4883-a30b-b788bdb441fc 10002 127.0.0.1 10003 
+Nov 29 07:36:45.054 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-2d39611b-2d07-4883-a30b-b788bdb441fc 
+Nov 29 07:36:45.055 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 29 07:36:45.485 HYPERVISOR: exec_cmd: nio create_udp udp-37ae17cf-8665-438d-9ef3-767c57d3df80 10008 127.0.0.1 10009 
+Nov 29 07:36:45.487 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 2 0 udp-37ae17cf-8665-438d-9ef3-767c57d3df80 
+Nov 29 07:36:45.487 HYPERVISOR: exec_cmd: vm get_status R6 

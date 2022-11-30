@@ -1,0 +1,36 @@
+Nov 29 07:36:42.882 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 29 07:36:42.885 HYPERVISOR: Started on IP = localhost, TCP port = 50327.
+Nov 29 07:36:43.382 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 29 07:36:43.383 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips 
+Nov 29 07:36:43.383 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips
+Nov 29 07:36:43.384 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\1aa79d61-642d-406c-b33b-d78c14b7d75f 
+Nov 29 07:36:43.384 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\1aa79d61-642d-406c-b33b-d78c14b7d75f
+Nov 29 07:36:43.384 HYPERVISOR: exec_cmd: vm create LNS1 9 c7200 
+Nov 29 07:36:43.389 VM: VM LNS1 created.
+Nov 29 07:36:43.390 HYPERVISOR: exec_cmd: vm set_con_tcp_port LNS1 5008 
+Nov 29 07:36:43.390 HYPERVISOR: exec_cmd: c7200 get_mac_addr LNS1 
+Nov 29 07:36:43.391 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.391 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 0 0 C7200-IO-FE 
+Nov 29 07:36:43.392 HYPERVISOR: exec_cmd: vm set_disk0 LNS1 0 
+Nov 29 07:36:43.393 HYPERVISOR: exec_cmd: vm set_exec_area LNS1 64 
+Nov 29 07:36:43.393 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.394 HYPERVISOR: exec_cmd: vm set_idle_pc LNS1 0x60189214 
+Nov 29 07:36:43.396 HYPERVISOR: exec_cmd: vm set_ios LNS1 C:/Users/ASUS/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Nov 29 07:36:43.396 HYPERVISOR: exec_cmd: c7200 set_mac_addr LNS1 ca09.0d44.0000 
+Nov 29 07:36:43.398 HYPERVISOR: exec_cmd: vm set_nvram LNS1 512 
+Nov 29 07:36:43.399 HYPERVISOR: exec_cmd: vm set_ram LNS1 512 
+Nov 29 07:36:43.399 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.400 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 1 0 PA-GE 
+Nov 29 07:36:43.400 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.401 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 2 0 PA-GE 
+Nov 29 07:36:43.401 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.401 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 3 0 PA-GE 
+Nov 29 07:36:43.402 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.402 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 4 0 PA-GE 
+Nov 29 07:36:43.403 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.403 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 5 0 PA-GE 
+Nov 29 07:36:43.404 HYPERVISOR: exec_cmd: vm get_status LNS1 
+Nov 29 07:36:43.404 HYPERVISOR: exec_cmd: vm slot_add_binding LNS1 6 0 PA-GE 
+Nov 29 07:36:45.084 HYPERVISOR: exec_cmd: nio create_udp udp-f273acad-d46f-4ef1-a676-58c1ce7d39c3 10004 127.0.0.1 10005 
+Nov 29 07:36:45.382 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LNS1 1 0 udp-f273acad-d46f-4ef1-a676-58c1ce7d39c3 
+Nov 29 07:36:45.383 HYPERVISOR: exec_cmd: vm get_status LNS1 

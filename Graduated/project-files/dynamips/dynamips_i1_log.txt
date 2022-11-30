@@ -1,0 +1,48 @@
+Nov 29 07:36:38.249 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 29 07:36:38.250 HYPERVISOR: Started on IP = localhost, TCP port = 50303.
+Nov 29 07:36:38.572 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 29 07:36:38.572 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips 
+Nov 29 07:36:38.581 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips
+Nov 29 07:36:38.581 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\37c75cf2-aaac-4fb7-b469-47560d56d8bd 
+Nov 29 07:36:38.582 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\37c75cf2-aaac-4fb7-b469-47560d56d8bd
+Nov 29 07:36:38.582 HYPERVISOR: exec_cmd: vm create LAC 1 c7200 
+Nov 29 07:36:38.584 VM: VM LAC created.
+Nov 29 07:36:38.585 HYPERVISOR: exec_cmd: vm set_con_tcp_port LAC 5000 
+Nov 29 07:36:38.585 HYPERVISOR: exec_cmd: c7200 get_mac_addr LAC 
+Nov 29 07:36:38.585 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.585 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 0 0 C7200-IO-FE 
+Nov 29 07:36:38.586 HYPERVISOR: exec_cmd: vm set_disk0 LAC 0 
+Nov 29 07:36:38.586 HYPERVISOR: exec_cmd: vm set_exec_area LAC 64 
+Nov 29 07:36:38.586 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.587 HYPERVISOR: exec_cmd: vm set_idle_pc LAC 0x60189214 
+Nov 29 07:36:38.589 HYPERVISOR: exec_cmd: vm set_ios LAC C:/Users/ASUS/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Nov 29 07:36:38.590 HYPERVISOR: exec_cmd: c7200 set_mac_addr LAC ca01.220c.0000 
+Nov 29 07:36:38.590 HYPERVISOR: exec_cmd: vm set_nvram LAC 512 
+Nov 29 07:36:38.591 HYPERVISOR: exec_cmd: vm set_ram LAC 512 
+Nov 29 07:36:38.592 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.592 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 1 0 PA-GE 
+Nov 29 07:36:38.592 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.593 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 2 0 PA-GE 
+Nov 29 07:36:38.593 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.594 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 3 0 PA-GE 
+Nov 29 07:36:38.594 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.594 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 4 0 PA-GE 
+Nov 29 07:36:38.595 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.595 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 5 0 PA-GE 
+Nov 29 07:36:38.596 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:38.596 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 6 0 PA-4T+ 
+Nov 29 07:36:45.912 HYPERVISOR: exec_cmd: nio create_udp udp-68c8fd65-14d9-41e6-9431-52280651b93b 10014 127.0.0.1 10015 
+Nov 29 07:36:46.180 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 1 0 udp-68c8fd65-14d9-41e6-9431-52280651b93b 
+Nov 29 07:36:46.181 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:46.417 HYPERVISOR: exec_cmd: nio create_udp udp-370ed710-43d2-4f73-88a6-c33ec5ac5011 10020 127.0.0.1 10021 
+Nov 29 07:36:46.421 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 2 0 udp-370ed710-43d2-4f73-88a6-c33ec5ac5011 
+Nov 29 07:36:46.421 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:46.822 HYPERVISOR: exec_cmd: nio create_udp udp-80300957-459a-40c4-b3cf-e512dcd6d6b0 10026 127.0.0.1 10027 
+Nov 29 07:36:46.825 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 3 0 udp-80300957-459a-40c4-b3cf-e512dcd6d6b0 
+Nov 29 07:36:46.825 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:48.821 HYPERVISOR: exec_cmd: nio create_udp udp-1d9dd35f-cc0f-49b1-889d-580cb428000f 10064 127.0.0.1 10065 
+Nov 29 07:36:48.825 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 6 0 udp-1d9dd35f-cc0f-49b1-889d-580cb428000f 
+Nov 29 07:36:48.826 HYPERVISOR: exec_cmd: vm get_status LAC 
+Nov 29 07:36:49.243 HYPERVISOR: exec_cmd: nio create_udp udp-2db947b0-841b-4546-82b6-33950e4bde45 10070 127.0.0.1 10071 
+Nov 29 07:36:49.247 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 6 1 udp-2db947b0-841b-4546-82b6-33950e4bde45 
+Nov 29 07:36:49.248 HYPERVISOR: exec_cmd: vm get_status LAC 

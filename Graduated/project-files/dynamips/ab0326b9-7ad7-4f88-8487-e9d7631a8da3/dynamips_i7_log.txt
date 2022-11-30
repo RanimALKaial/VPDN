@@ -1,0 +1,70 @@
+Sep 09 17:36:01.010 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 09 17:36:01.012 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61166.
+Sep 09 17:36:01.491 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 09 17:36:01.492 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Ahmad\GNS3\projects\Graduated\project-files\dynamips 
+Sep 09 17:36:01.492 GENERAL: working_dir=C:\Users\Ahmad\GNS3\projects\Graduated\project-files\dynamips
+Sep 09 17:36:01.492 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Ahmad\GNS3\projects\Graduated\project-files\dynamips\ab0326b9-7ad7-4f88-8487-e9d7631a8da3 
+Sep 09 17:36:01.495 GENERAL: working_dir=C:\Users\Ahmad\GNS3\projects\Graduated\project-files\dynamips\ab0326b9-7ad7-4f88-8487-e9d7631a8da3
+Sep 09 17:36:01.495 HYPERVISOR: exec_cmd: vm create R9 7 c7200 
+Sep 09 17:36:01.499 VM: VM R9 created.
+Sep 09 17:36:01.500 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 5006 
+Sep 09 17:36:01.500 HYPERVISOR: exec_cmd: c7200 get_mac_addr R9 
+Sep 09 17:36:01.501 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.501 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 0 C7200-IO-FE 
+Sep 09 17:36:01.501 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
+Sep 09 17:36:01.502 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
+Sep 09 17:36:01.502 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.502 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x60189214 
+Sep 09 17:36:01.504 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Ahmad/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 09 17:36:01.504 HYPERVISOR: exec_cmd: c7200 set_mac_addr R9 ca07.3e4c.0000 
+Sep 09 17:36:01.505 HYPERVISOR: exec_cmd: vm set_nvram R9 512 
+Sep 09 17:36:01.505 HYPERVISOR: exec_cmd: vm set_ram R9 512 
+Sep 09 17:36:01.506 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.506 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 PA-GE 
+Sep 09 17:36:01.506 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.507 HYPERVISOR: exec_cmd: vm slot_add_binding R9 2 0 PA-GE 
+Sep 09 17:36:01.507 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.507 HYPERVISOR: exec_cmd: vm slot_add_binding R9 3 0 PA-GE 
+Sep 09 17:36:01.507 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.508 HYPERVISOR: exec_cmd: vm slot_add_binding R9 4 0 PA-GE 
+Sep 09 17:36:01.508 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.508 HYPERVISOR: exec_cmd: vm slot_add_binding R9 5 0 PA-GE 
+Sep 09 17:36:01.509 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:01.509 HYPERVISOR: exec_cmd: vm slot_add_binding R9 6 0 PA-GE 
+Sep 09 17:36:07.475 HYPERVISOR: exec_cmd: nio create_udp udp-3afd4d6f-2471-404d-af3e-735900f4e1ce 10046 127.0.0.1 10047 
+Sep 09 17:36:08.020 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 1 0 udp-3afd4d6f-2471-404d-af3e-735900f4e1ce 
+Sep 09 17:36:08.021 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:32.155 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Sep 09 17:36:32.159 VM: VM Ghost created.
+Sep 09 17:36:32.177 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Ahmad/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 09 17:36:32.177 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 09 17:36:32.178 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Ahmad\GNS3\projects\Graduated\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-512.ghost' 
+Sep 09 17:36:32.178 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Sep 09 17:36:32.178 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 09 17:36:32.179 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 09 17:36:32.179 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 09 17:36:32.206 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 09 17:36:32.422 VM: VM Ghost shutdown.
+Sep 09 17:36:32.422 VM: VM Ghost destroyed.
+Sep 09 17:36:32.429 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 17:36:32.433 HYPERVISOR: exec_cmd: vm set_config R9 configs\i7_startup-config.cfg configs\i7_private-config.cfg 
+Sep 09 17:36:32.433 HYPERVISOR: exec_cmd: vm start R9 
+Sep 09 17:37:02.967 HYPERVISOR: exec_cmd: vm extract_config R9 
+Sep 09 17:37:32.975 HYPERVISOR: exec_cmd: vm extract_config R9 
+Sep 09 19:34:28.471 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Sep 09 19:34:28.475 VM: VM Ghost created.
+Sep 09 19:34:28.476 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Ahmad/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 09 19:34:28.476 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 09 19:34:28.477 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Ahmad\GNS3\projects\Graduated\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-512.ghost' 
+Sep 09 19:34:28.477 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Sep 09 19:34:28.477 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 09 19:34:28.479 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 09 19:34:28.479 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 09 19:34:28.497 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 09 19:34:28.730 VM: VM Ghost shutdown.
+Sep 09 19:34:28.730 VM: VM Ghost destroyed.
+Sep 09 19:34:28.747 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 19:41:11.044 HYPERVISOR: exec_cmd: vm get_status R9 
+Sep 09 19:41:11.045 HYPERVISOR: exec_cmd: vm stop R9 
+Sep 09 19:41:11.148 VM: VM R9 shutdown.
+Sep 09 19:41:11.149 HYPERVISOR: exec_cmd: vm extract_config R9 

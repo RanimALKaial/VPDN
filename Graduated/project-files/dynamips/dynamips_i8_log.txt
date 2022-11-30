@@ -1,0 +1,36 @@
+Nov 29 07:36:42.298 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 29 07:36:42.299 HYPERVISOR: Started on IP = localhost, TCP port = 50324.
+Nov 29 07:36:42.788 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 29 07:36:42.789 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips 
+Nov 29 07:36:42.789 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips
+Nov 29 07:36:42.790 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\cae29c9d-dca6-4cc8-9170-407738612493 
+Nov 29 07:36:42.790 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\cae29c9d-dca6-4cc8-9170-407738612493
+Nov 29 07:36:42.790 HYPERVISOR: exec_cmd: vm create LNS 8 c7200 
+Nov 29 07:36:42.793 VM: VM LNS created.
+Nov 29 07:36:42.794 HYPERVISOR: exec_cmd: vm set_con_tcp_port LNS 5007 
+Nov 29 07:36:42.794 HYPERVISOR: exec_cmd: c7200 get_mac_addr LNS 
+Nov 29 07:36:42.794 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.795 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 0 0 C7200-IO-FE 
+Nov 29 07:36:42.796 HYPERVISOR: exec_cmd: vm set_disk0 LNS 0 
+Nov 29 07:36:42.797 HYPERVISOR: exec_cmd: vm set_exec_area LNS 64 
+Nov 29 07:36:42.797 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.798 HYPERVISOR: exec_cmd: vm set_idle_pc LNS 0x60189214 
+Nov 29 07:36:42.800 HYPERVISOR: exec_cmd: vm set_ios LNS C:/Users/ASUS/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Nov 29 07:36:42.800 HYPERVISOR: exec_cmd: c7200 set_mac_addr LNS ca08.26e4.0000 
+Nov 29 07:36:42.801 HYPERVISOR: exec_cmd: vm set_nvram LNS 512 
+Nov 29 07:36:42.802 HYPERVISOR: exec_cmd: vm set_ram LNS 512 
+Nov 29 07:36:42.803 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.803 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 1 0 PA-GE 
+Nov 29 07:36:42.804 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.804 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 2 0 PA-GE 
+Nov 29 07:36:42.805 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.805 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 3 0 PA-GE 
+Nov 29 07:36:42.806 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.806 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 4 0 PA-GE 
+Nov 29 07:36:42.807 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.807 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 5 0 PA-GE 
+Nov 29 07:36:42.808 HYPERVISOR: exec_cmd: vm get_status LNS 
+Nov 29 07:36:42.808 HYPERVISOR: exec_cmd: vm slot_add_binding LNS 6 0 PA-GE 
+Nov 29 07:36:47.583 HYPERVISOR: exec_cmd: nio create_udp udp-375e730f-3fb6-4598-8410-e4ce9354fcc6 10040 127.0.0.1 10041 
+Nov 29 07:36:47.831 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LNS 1 0 udp-375e730f-3fb6-4598-8410-e4ce9354fcc6 
+Nov 29 07:36:47.832 HYPERVISOR: exec_cmd: vm get_status LNS 

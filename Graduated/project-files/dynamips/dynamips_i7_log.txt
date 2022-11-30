@@ -1,0 +1,36 @@
+Nov 29 07:36:41.688 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 29 07:36:41.690 HYPERVISOR: Started on IP = localhost, TCP port = 50321.
+Nov 29 07:36:42.166 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 29 07:36:42.166 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips 
+Nov 29 07:36:42.167 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips
+Nov 29 07:36:42.167 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\ab0326b9-7ad7-4f88-8487-e9d7631a8da3 
+Nov 29 07:36:42.167 GENERAL: working_dir=C:\Users\ASUS\Desktop\مشاريع\project2\VPDN\Graduated Project\projects\Graduated\project-files\dynamips\ab0326b9-7ad7-4f88-8487-e9d7631a8da3
+Nov 29 07:36:42.167 HYPERVISOR: exec_cmd: vm create Internet 7 c7200 
+Nov 29 07:36:42.170 VM: VM Internet created.
+Nov 29 07:36:42.171 HYPERVISOR: exec_cmd: vm set_con_tcp_port Internet 5006 
+Nov 29 07:36:42.172 HYPERVISOR: exec_cmd: c7200 get_mac_addr Internet 
+Nov 29 07:36:42.172 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.172 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 0 0 C7200-IO-FE 
+Nov 29 07:36:42.173 HYPERVISOR: exec_cmd: vm set_disk0 Internet 0 
+Nov 29 07:36:42.173 HYPERVISOR: exec_cmd: vm set_exec_area Internet 64 
+Nov 29 07:36:42.174 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.174 HYPERVISOR: exec_cmd: vm set_idle_pc Internet 0x60189214 
+Nov 29 07:36:42.175 HYPERVISOR: exec_cmd: vm set_ios Internet C:/Users/ASUS/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Nov 29 07:36:42.176 HYPERVISOR: exec_cmd: c7200 set_mac_addr Internet ca07.3e4c.0000 
+Nov 29 07:36:42.177 HYPERVISOR: exec_cmd: vm set_nvram Internet 512 
+Nov 29 07:36:42.177 HYPERVISOR: exec_cmd: vm set_ram Internet 512 
+Nov 29 07:36:42.178 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.178 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 1 0 PA-GE 
+Nov 29 07:36:42.178 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.178 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 2 0 PA-GE 
+Nov 29 07:36:42.179 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.179 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 3 0 PA-GE 
+Nov 29 07:36:42.179 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.180 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 4 0 PA-GE 
+Nov 29 07:36:42.180 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.180 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 5 0 PA-GE 
+Nov 29 07:36:42.181 HYPERVISOR: exec_cmd: vm get_status Internet 
+Nov 29 07:36:42.181 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 6 0 PA-GE 
+Nov 29 07:36:47.976 HYPERVISOR: exec_cmd: nio create_udp udp-5e13aae5-df06-4b2f-a363-ab27a7382665 10046 127.0.0.1 10047 
+Nov 29 07:36:48.240 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Internet 1 0 udp-5e13aae5-df06-4b2f-a363-ab27a7382665 
+Nov 29 07:36:48.240 HYPERVISOR: exec_cmd: vm get_status Internet 
